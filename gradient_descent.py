@@ -16,7 +16,7 @@ def display(m, b, color='g--'):
     x = np.arange(-10, 10, 0.1)
     plt.plot(x, m*x+b, color)
 
-data = pd.read_csv('data.csv', header=None)
+data = pd.read_csv('dataset/gradient_descent.csv', header=None)
 X = np.array(data[[0,1]])
 y = np.array(data[2])
 plot_points(X,y)
