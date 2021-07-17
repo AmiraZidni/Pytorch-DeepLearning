@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Reading the csv file into a pandas DataFrame
-data = pd.read_csv('data/student_data.csv')
+data = pd.read_csv('dataset/student_data.csv')
 
 # Printing out the first 10 rows of our data
 data[:10]
